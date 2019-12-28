@@ -5,7 +5,7 @@ publishDir = "docs"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "UA-118912078-2"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 
@@ -40,17 +40,17 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         location = "Oxford, United Kingdom"
 
         [[params.contact.list]]
-        icon = "fas fa-phone-square"
-        url = "tel:#"
-        text = "0123 4567 890"
+        icon = "fab fa-skype"
+        url = "skype:ernestguevarra?call"
+        text = "ernestguevarra"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
-        url = "mailto:#"
-        text = "simon.doe@yourwebsite.com"
+        url = "mailto:ernest@guevarra.io"
+        text = "ernest@guevarra.io"
         [[params.contact.list]]
         icon = "fas fa-globe"
-        url = "#"
-        text = "www.yourwebsite.com"
+        url = "https://ernest.guevarra.io"
+        text = "https://ernest.guevarra.io"
 
 
 
@@ -100,13 +100,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         enable = true
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        university = "University College London"
-        dates = "2010 - 2011"
+        degree = "Master of Public Health"
+        university = "Harvard School of Public Health"
+        dates = "2004 - 2005"
         [[params.education.list]]
-        degree = "BSc Maths and Physics"
-        university = "Imperial College London"
-        dates = "2007 - 2010"
+        degree = "Doctor of Medicine"
+        university = "University of the Philippines"
+        dates = "1994 - 2001"
 
 
 
@@ -119,13 +119,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         enable = true
 
         [[params.awards.list]]
-        name = "Award Lorem Ipsum"
-        body = "Microsoft lorem ipsum"
-        date = "2019"
+        name = "Dr. Fang-Ching Sun Memorial Award"
+        body = "Harvard School of Public Health"
+        date = "2005"
         [[params.awards.list]]
-        name = "Award Donec Sodales"
-        body = "Oracle Aenean"
-        date = "2017"
+        name = "Reebok Human Rights Award"
+        body = "Reebok Foundation"
+        date = "2003"
 
 
 
@@ -141,8 +141,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         name = "English"
         level = "Native"
         [[params.languages.list]]
-        name = "Spanish"
-        level = "Professional"
+        name = "Filipino"
+        level = "Native"
 
 
 
@@ -152,7 +152,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 
     [params.interests]
-        enable = true
+        enable = false
 
         [[params.interests.list]]
         name = "Climbing"
@@ -293,16 +293,16 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
         [[params.social.list]]
         icon = "fab fa-github-square"
-        url = "//github.com/username"
-        title = "username"
+        url = "//github.com/ernestguevarra"
+        title = "ernestguevarra"
         [[params.social.list]]
         icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/username"
-        title = "username"
+        url = "//linkedin.com/in/ernestguevarra"
+        title = "ernestguevarra"
         [[params.social.list]]
         icon = "fab fa-twitter-square"
-        url = "//twitter.com/username"
-        title = "@username"
+        url = "//twitter.com/ernestguevarra"
+        title = "@ernestguevarra"
 
 
 

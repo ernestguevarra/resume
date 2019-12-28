@@ -25,9 +25,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [params.profile]
         enable = true
-        name = "Simon Doe"
-        tagline = "Senior Software Engineer"
-        avatar = "avatar.png"
+        name = "Ernest Guevarra"
+        tagline = "Public Health Specialist, Spatial Epidemiologist, R Developer"
+        avatar = "guevarra.jpg"
 
 
 
@@ -37,7 +37,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [params.contact]
         enable = true
-        location = "New York"
+        location = "Oxford, United Kingdom"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"

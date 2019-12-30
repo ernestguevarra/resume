@@ -13,8 +13,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 
 [params]
-    author = "CowboySmall"
-    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+    author = ""
+    description = ""
 
 
     primaryColor = "#A41034"
@@ -64,30 +64,20 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         [[params.skills.list]]
         title = "Technical"
         [[params.skills.list.items]]
-        details = "JavaScript/Angular/React/Vue"
+        details = "Impact evaluation"
         [[params.skills.list.items]]
-        details = "Python/Ruby/PHP"
+        details = "Coverage assessment"
         [[params.skills.list.items]]
-        details = "Node.js/ASP.NET"
+        details = "Study/survey design"
         [[params.skills.list.items]]
-        details = "PostgreSQL/MySQL"
-        [[params.skills.list.items]]
-        details = "Object-oriented design"
-        [[params.skills.list.items]]
-        details = "Design and implement database structures"
-        [[params.skills.list.items]]
-        details = "Lead and deliver complex software systems"
+        details = "Statistical analysis"
 
         [[params.skills.list]]
-        title = "Professional"
+        title = "R"
         [[params.skills.list.items]]
-        details = "Effective communication"
+        details = "Package development"
         [[params.skills.list.items]]
-        details = "Team player"
-        [[params.skills.list.items]]
-        details = "Strong problem solver"
-        [[params.skills.list.items]]
-        details = "Good time management"
+        details = "Shiny app development and deployment"
 
 
 

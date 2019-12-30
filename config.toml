@@ -185,19 +185,25 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         title = "Head of Measures"
         dates = "2017 - Present"
         company = "Valid International Ltd"
-        details = "Design tailor-made surveys as per client requirements and information needs; Support and/or lead the implementation of surveys – in country and from HQ; Do project-specific data analysis; Provide technical support on survey/study design for other related projects; Train consultants and field staff on survey instruments, survey tools, survey methods, and survey analysis; Participate in the development of the spatial mapping and spatial modelling framework; Participate in the writing of survey or project-specific statistical analysis scripts and workflows that will aid data analysis by Valid consultants and field staff; Participate in the documentation, collation and dissemination of Valid’s survey designs, instruments and tools, survey methods, survey outputs and programming scripts."
+        details = "Leads design, development and implementation of innovative approaches, techniques and products for surveys and assessments focusing on health and nutrition for purposes of programme monitoring and evaluation, impact assessment, programme coverage and access or any other metric/indicator estimation. Leads the design and development of bespoke analytical techniques and the accompanying programming scripts and workflows for estimating various metrics/indicators, specifically leveraging Bayesian statistics, resampling approaches and Monte Carlo methods. Trains and supervises a team of 5 survey technicians and data analysts."
 
         [[params.experience.list]]
-        title = "Community-based Management of Acute Malnutrition (CMAM) Coverage Lead"
-        dates = "2010 - 2017"
+        title = "Surveys and Assessments Specialist"
+        dates = "2015 - 2017"
         company = "Valid International Ltd"
-        details = "Led the development and design of the organisation's CMAM coverage assessment methods, trained staff, partners and clients on the implementation of these methods and provided technical support and guidance during the implementation of these methods."
+        details = "Led Valid International’s Community-based Management of Acute Malnutrition (CMAM) coverage assessment team and has conducted coverage surveys in Somalia, Kenya, Ethiopia, Zambia, Nigeria, Niger, India and Ghana. Pioneered the design and development of specially designed methods to assess CMAM coverage such as Semi-Quantitative Evaluation of Access and Coverage (SQUEAC) and Simplified Lot Quality Assurance Sampling Evaluation of Access and Coverage (SLEAC). Co-developed a spatial sampling technique called Simple Spatial Sampling Method (S3M) for use in large-scale multi-indicator surveys that reports and maps indicator results at high spatial resolution at a national or regional level. Co-developed a low-cost, rapid assessment method for assessing nutritional status of children, women and elderly."
+
+        [[params.experience.list]]
+        title = "Technical Advisor"
+        dates = "2010 - 2015"
+        company = "Valid International Ltd"
+        details = "Provided technical support and evaluation of nutrition programmes for the treatment of severe and moderate acute malnutrition. Worked on all areas related to the design and implementation of CMAM programmes, including: identification of barriers to health services; establishment of outpatient clinics in local health centres; case-finding; advice on logistics of community outreach programmes; advice on integration of systems with local, regional and national ministry of health programmes; training programmes for partner NGOs and local ministry of health medical and logistics staff; support and evaluation of programme systems including community outreach, case-finding, programme admission, triage and referral, discharge, case follow up and patient recording systems; establishment of stabilisation centres within hospitals; and evaluation of nutrition programmes at all stages."
 
         [[params.experience.list]]
         title = "Trainee"
         dates = "2009 - 2010"
         company = "Valid International Ltd"
-        details = "Supported the lead consultants and experts in the setup, monitoring and evaluation of community-based managegement of acute malnutrition (CMAM) programmes in various countries."
+        details = "Supported the lead consultants and experts in the setup, monitoring and evaluation of community-based manageement of acute malnutrition (CMAM) programmes in various countries."
 
         [[params.experience.list]]
         title = "Child Protection Advisor"
@@ -235,19 +241,19 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         enable = true
 
         [[params.projects.list]]
-        title = "Project Lorem Ipsum"
+        title = "Nutriverse"
         meta = "Open Source"
-        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        tagline = "The nutriverse is a collection of tools and guides developed in R for use in nutrition and nutrition-related data collection and analysis. The nutriverse is for anyone who works with nutrition and nutrition-related data be that in collection, processing and analysis."
 
         [[params.projects.list]]
-        title = "Project Sed Fringilla"
+        title = "RapidSurveys"
         meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        tagline = "RapidSurveys develops methods and tools that facilitate robust and efficient health and nutrition surveys data collection, analysis and reporting."
 
         [[params.projects.list]]
-        title = "Project Praesent"
+        title = "SpatialWorks"
         meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        tagline = ""
 
 
 
@@ -264,9 +270,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         [[params.information.list]]
         title = "Papers"
         [[params.information.list.items]]
-        details = "2018 · Lorem Ipsum"
+        details = "2018 · Impact evaluation of the World Food Programme’s moderate acute malnutrition treatment and prevention programmes in Sudan"
         [[params.information.list.items]]
-        details = "2016 · Sed Fringilla"
+        details = "2016 · Assessing program coverage of two approaches to distributing a complementary feeding supplement to infants and young children in Ghana"
+        [[params.information.list.items]]
+        details = "2016 · Household coverage of fortified staple food commodities in Rajasthan, India"
+        [[params.information.list.items]]
+        details = "2012 · Semi-Quantitative Evaluation of Access and Coverage (SQUEAC)/simplified lot quality assurance sampling evaluation of access and coverage (SLEAC) technical reference"
 
 
 

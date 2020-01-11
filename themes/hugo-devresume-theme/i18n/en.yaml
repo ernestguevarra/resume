@@ -5,7 +5,9 @@
 - id: experiences
   translation: Work Experience
 - id: information
-  translation: Information
+  translation: Information  
+- id: publications
+  translation: Publications
 - id: interests
   translation: Interests
 - id: languages

@@ -3,7 +3,7 @@
 baseURL = "https://ernest.guevarra.io/resume/"
 publishDir = "docs"
 languageCode = "en"
-title = ""
+title = "Ernest Guevarra Résumé"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-118912078-2"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -264,18 +264,18 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 
 
-    [params.information]
+    [params.publications]
         enable = true
 
-        [[params.information.list]]
+        [[params.publications.list]]
         title = "Papers"
-        [[params.information.list.items]]
+        [[params.publications.list.items]]
         details = "2018 · Impact evaluation of the World Food Programme’s moderate acute malnutrition treatment and prevention programmes in Sudan"
-        [[params.information.list.items]]
+        [[params.publications.list.items]]
         details = "2016 · Assessing program coverage of two approaches to distributing a complementary feeding supplement to infants and young children in Ghana"
-        [[params.information.list.items]]
+        [[params.publications.list.items]]
         details = "2016 · Household coverage of fortified staple food commodities in Rajasthan, India"
-        [[params.information.list.items]]
+        [[params.publications.list.items]]
         details = "2012 · Semi-Quantitative Evaluation of Access and Coverage (SQUEAC)/simplified lot quality assurance sampling evaluation of access and coverage (SLEAC) technical reference"
 
 

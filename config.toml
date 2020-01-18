@@ -288,17 +288,17 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         enable = true
 
         [[params.social.list]]
-        icon = "fab fa-github-square"
-        url = "//github.com/ernestguevarra"
-        title = "ernestguevarra"
-        [[params.social.list]]
         icon = "fab fa-linkedin"
         url = "//linkedin.com/in/ernestguevarra"
         title = "ernestguevarra"
         [[params.social.list]]
-        icon = "fab fa-twitter-square"
-        url = "//twitter.com/ernestguevarra"
-        title = "@ernestguevarra"
+        icon = "fab fa-github-square"
+        url = "//github.com/ernestguevarra"
+        title = "ernestguevarra"
+        #[[params.social.list]]
+        #icon = "fab fa-twitter-square"
+        #title = "@ernestguevarra"
+        #url = "//twitter.com/ernestguevarra"
 
 
 

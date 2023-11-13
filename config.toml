@@ -40,10 +40,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         location = "Oxford, United Kingdom"
 
         [[params.contact.list]]
-        icon = "fab fa-skype"
-        url = "skype:ernestguevarra?call"
-        text = "ernestguevarra"
-        [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:ernest@guevarra.io"
         text = "ernest@guevarra.io"
@@ -307,10 +303,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         icon = "fab fa-github-square"
         url = "//github.com/ernestguevarra"
         title = "ernestguevarra"
-        #[[params.social.list]]
-        #icon = "fab fa-twitter-square"
-        #title = "@ernestguevarra"
-        #url = "//twitter.com/ernestguevarra"
+        [[params.social.list]]
+        icon = "fab fa-mastodon"
+        title = "@ernestguevarra@fosstodon.org"
+        url = "//fosstodon.org/@ernestguevarra"
 
 
 

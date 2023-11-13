@@ -2,13 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ernest Guevarra Résumé</title>
-    <link>/resume/</link>
+    <link>https://ernest.guevarra.io/resume/</link>
     <description>Recent content on Ernest Guevarra Résumé</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    
-	<atom:link href="/resume/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language><atom:link href="https://ernest.guevarra.io/resume/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -17,7 +17,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = ""
 
 
-    primaryColor = "#A41034"
+    #primaryColor = "#A41034"
+    primaryColor = "#002147"
     textPrimaryColor = "#292929"
 
 
@@ -165,7 +166,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [params.summary]
         enable = true
-        text = "I have more than 15 years of professional experience in community and public health in humanitarian crises and developing country-settings, including as a community health worker, medical doctor, and recently as specialised expert and head of metrics, analytics and technology for Valid International. I have expertise in spatial epidemiology, geo-statistics, and statistical programming using R. In my recent role as Head of Measures for Valid International, I led the design, development and implementation of innovative surveys and assessments on health and nutrition and bespoke analytical approaches that leverage the advantages of Bayesian statistics and resampling techniques. I am a founding member of Katilingban, a collective of public health and nutrition experts and practitioners. I am currently part of the Oxford COVID-19 Modelling Consortium (CoMo Consortium) Philippines team or CoMo-PH along with two other public health practitioners from the Philippines. We aim to test and compare the CoMo Consortium model with existing local models that have previously been developed."
+        text = "I am an independent public health consultant with more than 20 years of professional experience in community and public health in humanitarian crises and developing country settings, including as a community health worker, medical doctor, and most recently as the Head of Valid Measures, the specialised metrics, analytics and technology unit of Valid International. I have expertise in spatial epidemiology, geostatistics, cartography and statistical programming. In my role as head of Valid Measures, I led the design, development and implementation of innovative surveys and assessments on health and nutrition and bespoke analytical approaches that leverage the advantages of Bayesian statistics and resampling techniques. I am a founding member of Katilingban, a collective of public health and nutrition experts and practitioners. I am currently a consulting research data scientist for EcoHealth Alliance to support its computational analytics work in support of pandemic preparedness and One Health research and a Senior Research and Teaching Associate at the Centre for Tropical Medicine and Global Health, Nuffield Department of Medicine, University of Oxford."
 
 
 
@@ -178,34 +179,112 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         enable = true
 
         [[params.experience.list]]
+        title = "Senior Teaching and Research Associate"
+        dates = "October 2023 - present"
+        company = "University of Oxford"
+        details = "I am a lecturer for the MSc in International Health and Tropical Medicine at the Center for Tropical Medicine and Global Health, Nuffield Department of Medicine, University of Oxford. I lead the module on Open Science and Reproducible Research in R"
+        [[params.experience.list.items]]
+        details = "Lecture postgraduate students on topics related to famines, development and humanitarian Interventions for health, and evaluation methods for development and health"
+        [[params.experience.list.items]]
+        details = "Lead the organisation and teaching of module on Open Science and Reproducible Research in R"
+        
+        [[params.experience.list]]
+        title = "Consulting Research Date Scientist"
+        dates = "May 2022 - present"
+        company = "EcoHealth Alliance"
+        #details = ""
+        [[params.experience.list.items]]
+        details = "Support the creation of a database of active infectious disease research activities and research scientists in Africa"
+        [[params.experience.list.items]]
+        details = "Conduct training in how to use the database and background in priority zoonoses"
+        [[params.experience.list.items]]
+        details = "Provide Africa Centres for Disease Control and member states with direct technical support and subject matter expertise in One Health and zoonotic disease"
+        [[params.experience.list.items]]
+        details = "Programmatically develop pipeline to acquire, standardise, and aggregate suitable data sources for the prediction of accidental introduction of zoonotic disease and organise the data in a version-controlled, structured database usable for analysis and modelling"
+        [[params.experience.list.items]]
+        details = "Fit model to predict the frequency/risk of accidental zoonotic disease introduction in a country, based on a network representation of linkages between source and destination countries"
+        [[params.experience.list.items]]
+        details = "Support model testing, performance assessment, and iterative model refinements to improve model suitability" 
+
+        [[params.experience.list]]
         title = "Founding Member"
-        dates = "2020 - present"
+        dates = "July 2020 - present"
         company = "Katilingban"
-        details = ""
+        #details = ""
+        [[params.experience.list.items]]
+        details = "Lead the development and implementation of the strategic direction of the collective"
+        [[params.experience.list.items]]
+        details = "Lead the analytics and software development services unit of the collective"
+
+        [[params.experience.list]]
+        title = "Research Data Scientist"
+        dates = "December 2020 - December 2021"
+        company = "EcoHealth Alliance"
+        #details = ""
+        [[params.experience.list.items]]
+        details = "Develop, maintain, update, and refine models of COVID-19 infection, spread and associated processes"
+        [[params.experience.list.items]]
+        details = "Develop, maintain, update, and refine reports, visualisations, and dashboards of disease data and model results"
+        [[params.experience.list.items]]
+        details = "Write and edit reports and summaries of results for various health, policy, public, and scientific audiences"
+        [[params.experience.list.items]]
+        details = "Provide analyses and visualisations in response to inquiries from project partners and policy makers"
+        [[params.experience.list.items]]
+        details = "Maintain, refactor, and document computer code for sharing, reuse, and publication"
+        [[params.experience.list.items]]
+        details = "Support organizational data management, infrastructure, and modelling practices" 
+
+        [[params.experience.list]]
+        title = "Teaching Fellow"
+        dates = "July 2020 - October 2023"
+        company = "University of Oxford"
+        details = "Lecture postgraduate students on topics related to famines, development and humanitarian interventions for health, and evaluation methods for development and health"
 
         [[params.experience.list]]
         title = "Member"
-        dates = "2020 - present"
+        dates = "March 2020 - December 2020"
         company = "Oxford COVID-19 Modelling Consortium Philippines"
-        details = ""
+        #details = ""
+        [[params.experience.list.items]]
+        details = "Provided technical guidance and capacity building to the Philippines country team in adapting the CoMo Consortium model to the Philippine context"
+        [[params.experience.list.items]]
+        details = "Developed analytical tools in R language for statistical computing to support the country team’s modelling efforts"
 
         [[params.experience.list]]
         title = "Head of Measures"
         dates = "2017 - 2020"
         company = "Valid International Ltd"
-        details = "Led design, development and implementation of innovative approaches, techniques and products for surveys and assessments focusing on health and nutrition for purposes of programme monitoring and evaluation, impact assessment, programme coverage and access or any other metric/indicator estimation. Led the design and development of bespoke analytical techniques and the accompanying programming scripts and workflows for estimating various metrics/indicators, specifically leveraging Bayesian statistics, resampling approaches and Monte Carlo methods. Trained and supervised a team of 5 survey technicians and data analysts."
+        #details = ""
+        [[params.experience.list.items]]
+        details = "Led design, development and implementation of innovative approaches, techniques and products for surveys and assessments focusing on health and nutrition for purposes of programme monitoring and evaluation, impact assessment, programme coverage and access or any other metric/indicator estimation"
+        [[params.experience.list.items]]
+        details = "Led the design and development of bespoke analytical techniques and the accompanying programming scripts and workflows for estimating various metrics/indicators, specifically leveraging Bayesian statistics, resampling approaches and Monte Carlo methods"
+        [[params.experience.list.items]]
+        details = "Trained and supervised a team of 5 survey technicians and data analysts"
 
         [[params.experience.list]]
         title = "Surveys and Assessments Specialist"
         dates = "2015 - 2017"
         company = "Valid International Ltd"
-        details = "Led Valid International’s Community-based Management of Acute Malnutrition (CMAM) coverage assessment team and has conducted coverage surveys in Somalia, Kenya, Ethiopia, Zambia, Nigeria, Niger, India and Ghana. Pioneered the design and development of specially designed methods to assess CMAM coverage such as Semi-Quantitative Evaluation of Access and Coverage (SQUEAC) and Simplified Lot Quality Assurance Sampling Evaluation of Access and Coverage (SLEAC). Co-developed a spatial sampling technique called Simple Spatial Sampling Method (S3M) for use in large-scale multi-indicator surveys that reports and maps indicator results at high spatial resolution at a national or regional level. Co-developed a low-cost, rapid assessment method for assessing nutritional status of children, women and elderly."
+        #details = ""
+        [[params.experience.list.items]]
+        details = "Led Valid International’s Community-based Management of Acute Malnutrition (CMAM) coverage assessment team and has conducted coverage surveys in Somalia, Kenya, Ethiopia, Zambia, Nigeria, Niger, India and Ghana"
+        [[params.experience.list.itmes]]
+        details = "Pioneered the design and development of specially designed methods to assess CMAM coverage such as Semi-Quantitative Evaluation of Access and Coverage (SQUEAC) and Simplified Lot Quality Assurance Sampling Evaluation of Access and Coverage (SLEAC). Co-developed a spatial sampling technique called Simple Spatial Sampling Method (S3M) for use in large-scale multi-indicator surveys that reports and maps indicator results at high spatial resolution at a national or regional level. Co-developed a low-cost, rapid assessment method for assessing nutritional status of children, women and elderly."
+        [[params.experience.list.items]]
+        details = "Co-developed a spatial sampling technique called Simple Spatial Sampling Method (S3M) for use in large-scale multi-indicator surveys that reports and maps indicator results at high spatial resolution at a national or regional level"
+        [[params.experience.list.items]]
+        details = "Co-developed a low-cost, rapid assessment method for assessing nutritional status of children, women and elderly"
 
         [[params.experience.list]]
         title = "Technical Advisor"
         dates = "2010 - 2015"
         company = "Valid International Ltd"
-        details = "Provided technical support and evaluation of nutrition programmes for the treatment of severe and moderate acute malnutrition. Worked on all areas related to the design and implementation of CMAM programmes, including: identification of barriers to health services; establishment of outpatient clinics in local health centres; case-finding; advice on logistics of community outreach programmes; advice on integration of systems with local, regional and national ministry of health programmes; training programmes for partner NGOs and local ministry of health medical and logistics staff; support and evaluation of programme systems including community outreach, case-finding, programme admission, triage and referral, discharge, case follow up and patient recording systems; establishment of stabilisation centres within hospitals; and evaluation of nutrition programmes at all stages."
+        #details = ""
+        [[params.experience.list.items]]
+        details = "Provided technical support and evaluation of nutrition programmes for the treatment of severe and moderate acute malnutrition"
+        [[params.experience.list.items]]
+        details = "Worked on all areas related to the design and implementation of CMAM programmes, including: identification of barriers to health services; establishment of outpatient clinics in local health centres; case-finding; advice on logistics of community outreach programmes; advice on integration of systems with local, regional and national ministry of health programmes; training programmes for partner NGOs and local ministry of health medical and logistics staff; support and evaluation of programme systems including community outreach, case-finding, programme admission, triage and referral, discharge, case follow up and patient recording systems; establishment of stabilisation centres within hospitals; and evaluation of nutrition programmes at all stages."
 
         [[params.experience.list]]
         title = "Trainee"
@@ -246,7 +325,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 
     [params.projects]
-        enable = false
+        enable = true
 
         [[params.projects.list]]
         title = "Nutriverse"
@@ -257,11 +336,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         title = "RapidSurveys"
         meta = "Open Source"
         tagline = "RapidSurveys develops methods and tools that facilitate robust and efficient health and nutrition surveys data collection, analysis and reporting."
-
-        [[params.projects.list]]
-        title = "SpatialWorks"
-        meta = "Open Source"
-        tagline = ""
+        
 
 
 
@@ -298,14 +373,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         [[params.social.list]]
         icon = "fab fa-linkedin"
         url = "//linkedin.com/in/ernestguevarra"
-        title = "ernestguevarra"
+        title = "linkedin/in/ernestguevarra"
         [[params.social.list]]
         icon = "fab fa-github-square"
         url = "//github.com/ernestguevarra"
-        title = "ernestguevarra"
+        title = "github.com/ernestguevarra"
         [[params.social.list]]
         icon = "fab fa-mastodon"
-        title = "@ernestguevarra@fosstodon.org"
+        title = "@ernestguevarra"
         url = "//fosstodon.org/@ernestguevarra"
 
 
